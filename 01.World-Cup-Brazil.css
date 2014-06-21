@@ -1,0 +1,93 @@
+﻿body {
+    background:green;
+}
+
+th {
+    background:orange;
+    padding:5px;
+    vertical-align:middle;
+    font-size:24px;
+}
+
+tbody tr:nth-child(2n+1){
+    background:white;
+}
+
+tbody tr:nth-child(2n){
+    background:gray;
+}
+table {
+    border-spacing:0;
+    margin:5px;
+}
+td, th {
+   border: 1px solid black;       
+}
+
+th:first-of-type {
+    border-top-left-radius:10px;
+    border: 1px solid black;
+}
+
+th:last-of-type {
+   border-top-right-radius:10px;
+}
+
+tr:last-of-type td:first-of-type {
+    border-bottom-left-radius:10px;
+}
+
+tr:last-of-type td:last-of-type {
+    border-bottom-right-radius:10px;
+}
+
+td img {
+    height:16px;
+    width:28px;
+    margin-left:5px;
+    margin-right:5px;
+
+}
+.alig-left {
+    text-align:left;
+    width:200px;
+
+}
+
+.alig-right {
+    text-align:right;
+    width:200px;
+}
+
+.alig-center {
+    text-align:center;
+}
+
+input[type=number] {
+    width:30px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+input[readonly=readonly] {
+    width:30px;
+    margin-left:5px;
+    margin-right:5px;
+    background-color:lightgrey;
+}
+
+input[type=button] {
+    width:40px;
+    height:40px;
+    background-color:green;
+    color:white;
+    border-radius:20px;
+}
+
+input[disabled=disabled] {
+    width:40px;
+    height:40px;
+    background-color:red;
+    color:white;
+    border-radius:20px;
+}
