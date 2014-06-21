@@ -62,6 +62,11 @@ td img {
     text-align:center;
 }
 
+    .alig-center form {
+        display:inline-block;
+    }
+
+
 input[type=number] {
     width:30px;
     margin-left:5px;
