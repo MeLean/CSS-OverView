@@ -26,7 +26,6 @@ td, th {
 
 th:first-of-type {
     border-top-left-radius:10px;
-    border: 1px solid black;
 }
 
 th:last-of-type {
