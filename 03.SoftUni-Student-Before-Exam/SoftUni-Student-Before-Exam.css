@@ -1,0 +1,90 @@
+﻿#head {
+    width:500px;
+    height:500px;
+    background-color:yellow;
+    border:1px solid black;
+    border-radius:250px;
+    position:relative;
+    top:0; 
+    left:0;
+}
+
+#eye-ball-left, #eye-ball-right  { 
+    position:absolute;  
+    width:80px;
+    height:80px;
+    background-color:white;
+    border:1px solid black;
+    border-radius:40px;
+    top:100px; 
+}
+
+#eye-ball-left {
+    left:120px;
+}
+
+#eye-ball-right {
+    left:325px;
+}
+
+#eye-left, #eye-right {
+    position:absolute;  
+    width:20px;
+    height:20px;
+    background-color:black;
+    border:1px solid black;
+    border-radius:10px;
+}
+
+#eye-left {
+    top:45px;
+    left:45px;
+}
+
+#eye-right {
+    top:5px;
+    left:0px;
+}
+
+#nouse {
+    position:absolute;
+    width:70px;
+    height:70px;
+    background-color:red;
+    border:1px solid black;
+    border-radius:35px;    
+    top:225px; 
+    left:225px;
+}
+
+#mount {
+    position:absolute;
+    width:300px;
+    height:100px;
+    background-color:white;
+    border:1px solid black;
+    border-radius:50px;    
+    top:325px; 
+    left:110px;
+}
+
+#thoot-one, #thoot-two{
+    position:absolute;  
+    width:50px;
+    height:50px;
+    background-color:white;
+    border:1px solid black;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    top:-1px; 
+}
+
+#thoot-one {
+    left:100px;
+}
+
+#thoot-two {
+    left:152px;
+}
+
+
